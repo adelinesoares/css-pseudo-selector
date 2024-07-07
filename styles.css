@@ -90,3 +90,9 @@ table caption {
     left: 0.5rem;
 
 }
+
+body td{
+    width: 100vw;
+    max-width: 4rem;
+    min-width: 4rem;
+  }
