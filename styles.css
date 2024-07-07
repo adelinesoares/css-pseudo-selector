@@ -9,8 +9,8 @@ body {
 
 span[class~="sr-only"] {
     border: 0 !important;
-    clip: rect(1px, 1px, 1px, 1px)!important;
-    clip-path: inset(50%)!important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
     width: 1px !important;
     height: 1px !important;
     overflow: hidden !important;
@@ -59,21 +59,24 @@ section {
     z-index: 999;
 }
 
-#years span[class]{
+#years span[class] {
     font-weight: bold;
     width: 4.5rem;
     text-align: right;
-  }
+}
 
-  .table-wrap{
+.table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
-  }
+}
 
-  span{
+span {
     font-weight: normal;
-  }
+}
 
-  table {
+table {
     border-collapse: collapse;
     border: 0;
-  }
+    width: 100%;
+    margin-top: 3rem;
+    position: relative;
+}
